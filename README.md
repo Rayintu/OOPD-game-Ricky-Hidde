@@ -1,7 +1,6 @@
-# <unnamed spel> Ricky Hidde
+# ICA-man
 
-Lekker githubje voor project jaja
+### PAC-MAN parody game written in java
 
-bananen zijn lekker
+_Ricky Broers, Hidde Woudsma_
 
-ja maar appels zijn lekkerder
