@@ -22,7 +22,7 @@ public class ICAman {
     }
 
     public void editScore(){
-        
+
     }
 
 }
