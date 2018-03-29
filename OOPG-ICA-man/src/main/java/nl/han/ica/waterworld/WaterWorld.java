@@ -29,9 +29,7 @@ public class WaterWorld extends GameEngine {
     private Player player;
 
 
-    public static void main(String[] args) {
-        PApplet.main(new String[]{"nl.han.ica.waterworld.WaterWorld"});
-    }
+
 
     /**
      * In deze methode worden de voor het spel
