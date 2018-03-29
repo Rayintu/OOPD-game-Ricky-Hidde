@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="JAVA_MODULE" version="4">
   <component name="EclipseModuleManager">
-    <libelement value="file://lib/processing/core/2.2.1/core-2.2.1.jar" />
-    <libelement value="file://lib/processing/gifanimation/1.0/gifanimation-1.0.jar" />
-    <libelement value="file://lib/processing/sound/1.0/sound-1.0.jar" />
-    <libelement value="file://lib/processing/sound/jl/1.0/jl-1.0.jar" />
-    <libelement value="file://lib/processing/sound/jsminim/1.0/jsminim-1.0.jar" />
-    <libelement value="file://lib/processing/sound/minim/1.0/minim-1.0.jar" />
-    <libelement value="file://lib/processing/sound/mp3spi/1.9.4/mp3spi-1.9.4.jar" />
-    <libelement value="file://lib/processing/sound/tritonus_aos/1.9.4/tritonus_aos-1.9.4.jar" />
-    <libelement value="file://lib/processing/sound/tritonus_share/1.0/tritonus_share-1.0.jar" />
+    <libelement value="jar://$MODULE_DIR$/lib/processing/core/2.2.1/core-2.2.1.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/processing/gifanimation/1.0/gifanimation-1.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/processing/sound/1.0/sound-1.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/processing/sound/jl/1.0/jl-1.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/processing/sound/jsminim/1.0/jsminim-1.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/processing/sound/minim/1.0/minim-1.0.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/processing/sound/mp3spi/1.9.4/mp3spi-1.9.4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/processing/sound/tritonus_aos/1.9.4/tritonus_aos-1.9.4.jar!/" />
+    <libelement value="jar://$MODULE_DIR$/lib/processing/sound/tritonus_share/1.0/tritonus_share-1.0.jar!/" />
     <src_description expected_position="1">
       <src_folder value="file://$MODULE_DIR$/src/main/java" expected_position="1" />
     </src_description>
@@ -37,7 +37,7 @@
     <orderEntry type="module-library">
       <library name="core-2.2.1.jar">
         <CLASSES>
-          <root url="file://lib/processing/core/2.2.1/core-2.2.1.jar" />
+          <root url="jar://$MODULE_DIR$/lib/processing/core/2.2.1/core-2.2.1.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -46,7 +46,7 @@
     <orderEntry type="module-library">
       <library name="gifanimation-1.0.jar">
         <CLASSES>
-          <root url="file://lib/processing/gifanimation/1.0/gifanimation-1.0.jar" />
+          <root url="jar://$MODULE_DIR$/lib/processing/gifanimation/1.0/gifanimation-1.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -55,7 +55,7 @@
     <orderEntry type="module-library">
       <library name="sound-1.0.jar">
         <CLASSES>
-          <root url="file://lib/processing/sound/1.0/sound-1.0.jar" />
+          <root url="jar://$MODULE_DIR$/lib/processing/sound/1.0/sound-1.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -64,7 +64,7 @@
     <orderEntry type="module-library">
       <library name="jl-1.0.jar">
         <CLASSES>
-          <root url="file://lib/processing/sound/jl/1.0/jl-1.0.jar" />
+          <root url="jar://$MODULE_DIR$/lib/processing/sound/jl/1.0/jl-1.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -73,7 +73,7 @@
     <orderEntry type="module-library">
       <library name="jsminim-1.0.jar">
         <CLASSES>
-          <root url="file://lib/processing/sound/jsminim/1.0/jsminim-1.0.jar" />
+          <root url="jar://$MODULE_DIR$/lib/processing/sound/jsminim/1.0/jsminim-1.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -82,7 +82,7 @@
     <orderEntry type="module-library">
       <library name="minim-1.0.jar">
         <CLASSES>
-          <root url="file://lib/processing/sound/minim/1.0/minim-1.0.jar" />
+          <root url="jar://$MODULE_DIR$/lib/processing/sound/minim/1.0/minim-1.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -91,7 +91,7 @@
     <orderEntry type="module-library">
       <library name="mp3spi-1.9.4.jar">
         <CLASSES>
-          <root url="file://lib/processing/sound/mp3spi/1.9.4/mp3spi-1.9.4.jar" />
+          <root url="jar://$MODULE_DIR$/lib/processing/sound/mp3spi/1.9.4/mp3spi-1.9.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -100,7 +100,7 @@
     <orderEntry type="module-library">
       <library name="tritonus_aos-1.9.4.jar">
         <CLASSES>
-          <root url="file://lib/processing/sound/tritonus_aos/1.9.4/tritonus_aos-1.9.4.jar" />
+          <root url="jar://$MODULE_DIR$/lib/processing/sound/tritonus_aos/1.9.4/tritonus_aos-1.9.4.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -109,7 +109,7 @@
     <orderEntry type="module-library">
       <library name="tritonus_share-1.0.jar">
         <CLASSES>
-          <root url="file://lib/processing/sound/tritonus_share/1.0/tritonus_share-1.0.jar" />
+          <root url="jar://$MODULE_DIR$/lib/processing/sound/tritonus_share/1.0/tritonus_share-1.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
