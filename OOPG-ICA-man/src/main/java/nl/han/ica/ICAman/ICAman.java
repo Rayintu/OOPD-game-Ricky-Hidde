@@ -18,16 +18,18 @@ import static nl.han.ica.ICAman.IWriteReadTextFile.writeFile;
 
 public class ICAman extends GameEngine {
 
-
+    public static void main(String[] args) {
+        PApplet.main("nl.han.ica.ICAman.ICAman");
+    }
 
     @Override
     public void setupGame(){
-        //int worldWidth=1204;
-        //int worldHeight=903;
+        int worldWidth=1204;
+        int worldHeight=903;
 
-        //createView(worldWidth, worldHeight);
+        createView(worldWidth, worldHeight);
 
-        //testprint("yeet");
+
 
         //editScore();
     }
