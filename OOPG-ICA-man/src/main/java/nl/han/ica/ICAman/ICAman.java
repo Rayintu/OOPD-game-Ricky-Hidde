@@ -24,8 +24,8 @@ public class ICAman extends GameEngine {
 
     @Override
     public void setupGame(){
-        int worldWidth=1204;
-        int worldHeight=903;
+        int worldWidth=1280;
+        int worldHeight=720;
 
         createView(worldWidth, worldHeight);
 
@@ -44,7 +44,7 @@ public class ICAman extends GameEngine {
 
     public void createView(int screenWidth,int screenHeight){
         View view = new View(screenWidth,screenHeight);
-        view.setBackground(loadImage("src/main/java/nl/han/ica/ICAman/mecia/nadeshiko.png"));
+        view.setBackground(loadImage("src/main/java/nl/han/ica/ICAman/media/nadeshiko.png"));
 
         setView(view);
         size(screenWidth, screenHeight);
