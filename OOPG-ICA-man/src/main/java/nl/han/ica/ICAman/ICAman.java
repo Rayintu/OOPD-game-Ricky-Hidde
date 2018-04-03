@@ -28,7 +28,11 @@ public class ICAman extends GameEngine {
         int worldHeight=720;
 
         createView(worldWidth, worldHeight);
+<<<<<<< HEAD
 
+=======
+        createObjects();
+>>>>>>> parent of d88693a... docent update
 
         //editScore();
     }
@@ -51,10 +55,6 @@ public class ICAman extends GameEngine {
 
     public void initializeSound(){
 
-    }
-
-    public void createMaze(){
-     
     }
 
     public void createObjects(){

@@ -17,9 +17,11 @@ public class Docent extends AnimatedSpriteObject implements ICollidableWithTiles
      * @param world Referentie naar de wereld
      */
     public Docent(ICAman world) {
-        super(new Sprite("nl/han/ica/waterworld/media/player.png"), 2);
+        super(new Sprite("nl/han/ica/ICAman/media/original_pacman.png"), 1);
         this.world = world;
         setCurrentFrameIndex(0);
+        setWidth(size);
+        setHeight(size);
     }
 
     @Override
@@ -45,7 +47,7 @@ public class Docent extends AnimatedSpriteObject implements ICollidableWithTiles
 
     @Override
     public void keyPressed(int keyCode, char key) {
-        final int speed = 5/2;
+        final int speed = 5;
         if (keyCode == world.LEFT) {
             setDirectionSpeed(270, speed);
             setCurrentFrameIndex(0);
@@ -55,36 +57,18 @@ public class Docent extends AnimatedSpriteObject implements ICollidableWithTiles
         }
         if (keyCode == world.RIGHT) {
             setDirectionSpeed(90, speed);
-            setCurrentFrameIndex(1);
+            setCurrentFrameIndex(0);
         }
         if (keyCode == world.DOWN) {
             setDirectionSpeed(180, speed);
         }
-
-    //    System.out.println(getSpeed());
-      //  System.out.println(getX());
-        //System.out.println(getY());
     }
 
 
     @Override
     public void tileCollisionOccurred(List<CollidedTile> collidedTiles)  {
-        PVector vector;
-        for (CollidedTile ct : collidedTiles) {
-            if (ct.theTile instanceof BoardsTile) {
-                if (ct.collisionSide == ct.TOP) {
-                    try {
-                        vector = world.getTileMap().getTilePixelLocation(ct.theTile);
-                        setY(vector.y - getHeight());
-                    } catch (TileNotFoundException e) {
-                        e.printStackTrace();
-                    }
-                }
-                if (ct.collisionSide == ct.RIGHT) {
-                    try {
-                        vector = world.getTileMap().getTilePixelLocation(ct.theTile);
-                       //    setX(vector.x + world.getTile);
 
+<<<<<<< HEAD
                     } catch (TileNotFoundException e) {
                         e.printStackTrace();
                     }
@@ -97,5 +81,8 @@ public class Docent implements ICollidableWithGameObjects {
     public void gameObjectCollisionOccurred(List<GameObject> collidedGameObjects) {
 
 >>>>>>> parent of 0bf02f0... code dinges :b:oi
+=======
+
+>>>>>>> parent of d88693a... docent update
     }
 }
