@@ -31,13 +31,13 @@ public class ICAman extends GameEngine {
 
     @Override
     public void setupGame(){
-        int worldWidth=1280;
-        int worldHeight=720;
+        int worldWidth=736;
+        int worldHeight=813;
 
         createView(worldWidth, worldHeight);
         createObjects();
 
-        //editScore();
+        editScore();
     }
 
     /**
@@ -50,7 +50,7 @@ public class ICAman extends GameEngine {
 
     public void createView(int screenWidth,int screenHeight){
         View view = new View(screenWidth,screenHeight);
-        view.setBackground(loadImage("src/main/java/nl/han/ica/ICAman/media/nadeshiko.png"));
+        view.setBackground(loadImage("src/main/java/nl/han/ica/ICAman/media/mapbackground.png"));
 
         setView(view);
         size(screenWidth, screenHeight);
@@ -68,12 +68,38 @@ public class ICAman extends GameEngine {
         addGameObject(docent, docentStartX, docentStartY);
     }
 
+    private void initializeTileMap() {
+        /* TILES */
+        Sprite boardsSprite = new Sprite("src/main/java/nl/han/ica/waterworld/media/boards.jpg");
+        TileType<BoardsTile> boardTileType = new TileType<>(BoardsTile.class, boardsSprite);
+
+        TileType[] tileTypes = { boardTileType };
+        int tileSize=50;
+        int tilesMap[][]={
+                {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+                {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+                {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+                {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+                {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+                {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+                {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+                {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+                {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+                {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+                {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+                {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+                {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1},
+                {-1,-1,-1,-1,-1,-1,-1,-1,-1,-1}
+        };
+        tileMap = new TileMap(tileSize, tileTypes, tilesMap);
+    }
+
     public void testprint(String yeet){
         System.out.println(yeet);
     }
 
     public void editScore(){
-        writeFile("Ricky",6000);
+        IWriteReadTextFile.writeFile("Ricky",6000);
     }
 
 }

@@ -1,0 +1,2 @@
+HIGHSCORES: 
+Ricky: 6000
