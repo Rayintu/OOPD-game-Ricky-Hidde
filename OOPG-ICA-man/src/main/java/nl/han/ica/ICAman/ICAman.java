@@ -28,13 +28,7 @@ public class ICAman extends GameEngine {
         int worldHeight=720;
 
         createView(worldWidth, worldHeight);
-<<<<<<< HEAD
-        createMaze();
-        createObjects();
-=======
 
-
->>>>>>> parent of 0bf02f0... code dinges :b:oi
 
         //editScore();
     }
