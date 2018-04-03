@@ -52,7 +52,7 @@ public class Docent extends AnimatedSpriteObject implements ICollidableWithTiles
 
     @Override
     public void keyPressed(int keyCode, char key) {
-        final int speed = 5/2;
+        final int speed = 5;
         if (keyCode == world.LEFT) {
             setDirectionSpeed(270, speed);
             setCurrentFrameIndex(0);
@@ -62,15 +62,11 @@ public class Docent extends AnimatedSpriteObject implements ICollidableWithTiles
         }
         if (keyCode == world.RIGHT) {
             setDirectionSpeed(90, speed);
-            setCurrentFrameIndex(1);
+            setCurrentFrameIndex(0);
         }
         if (keyCode == world.DOWN) {
             setDirectionSpeed(180, speed);
         }
-
-        //    System.out.println(getSpeed());
-        //  System.out.println(getX());
-        //System.out.println(getY());
     }
 
 
@@ -90,8 +86,24 @@ public class Docent extends AnimatedSpriteObject implements ICollidableWithTiles
                 if (ct.collisionSide == ct.RIGHT) {
                     try {
                         vector = world.getTileMap().getTilePixelLocation(ct.theTile);
-                        //    setX(vector.x + world.getTile);
+                            setX(vector.x + getHeight());
 
+                    } catch (TileNotFoundException e) {
+                        e.printStackTrace();
+                    }
+                }
+                if (ct.collisionSide == ct.BOTTOM) {
+                    try {
+                        vector = world.getTileMap().getTilePixelLocation(ct.theTile);
+                        setY(vector.y + getHeight());
+                    } catch (TileNotFoundException e) {
+                        e.printStackTrace();
+                    }
+                }
+                if (ct.collisionSide == ct.LEFT) {
+                    try {
+                        vector = world.getTileMap().getTilePixelLocation(ct.theTile);
+                        setX(vector.x - getWidth());
                     } catch (TileNotFoundException e) {
                         e.printStackTrace();
                     }
