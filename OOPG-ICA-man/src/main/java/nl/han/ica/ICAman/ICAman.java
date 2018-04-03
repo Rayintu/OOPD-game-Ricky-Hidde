@@ -11,12 +11,19 @@ import nl.han.ica.OOPDProcessingEngineHAN.Tile.TileMap;
 import nl.han.ica.OOPDProcessingEngineHAN.Tile.TileType;
 import nl.han.ica.OOPDProcessingEngineHAN.View.EdgeFollowingViewport;
 import nl.han.ica.OOPDProcessingEngineHAN.View.View;
+import nl.han.ica.waterworld.Player;
 import nl.han.ica.waterworld.tiles.BoardsTile;
 import processing.core.PApplet;
 
 import static nl.han.ica.ICAman.IWriteReadTextFile.writeFile;
 
 public class ICAman extends GameEngine {
+
+    /**
+     * variabelen
+     */
+
+    private Docent docent;
 
     public static void main(String[] args) {
         PApplet.main("nl.han.ica.ICAman.ICAman");
@@ -28,8 +35,7 @@ public class ICAman extends GameEngine {
         int worldHeight=720;
 
         createView(worldWidth, worldHeight);
-
-
+        createObjects();
 
         //editScore();
     }
@@ -55,7 +61,11 @@ public class ICAman extends GameEngine {
     }
 
     public void createObjects(){
+        int docentStartX = 640;
+        int docentStartY = 400;
 
+        docent = new Docent(this);
+        addGameObject(docent, docentStartX, docentStartY);
     }
 
     public void testprint(String yeet){
