@@ -24,7 +24,7 @@ public class Docent extends AnimatedSpriteObject implements ICollidableWithTiles
      * @param world Referentie naar de wereld
      */
     public Docent(ICAman world) {
-        super(new Sprite("nl/han/ica/waterworld/media/player.png"), 2);
+        super(new Sprite("nl/han/ica/ICAman/media/herman_small.png"), 1);
         this.world = world;
         setCurrentFrameIndex(0);
     }
