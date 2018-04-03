@@ -28,9 +28,7 @@ public class WaterWorld extends GameEngine {
     private IPersistence persistence;
     private Player player;
 
-    public static void main(String[] args) {
-        PApplet.main(new String[]{"nl.han.ica.waterworld.Waterworld"});
-    }
+
 
 
     /**
