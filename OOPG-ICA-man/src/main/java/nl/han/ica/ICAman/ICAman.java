@@ -31,7 +31,7 @@ public class ICAman extends GameEngine {
 
     @Override
     public void setupGame(){
-        int worldWidth=736;
+        int worldWidth=1200;
         int worldHeight=800;
 
         createView(worldWidth, worldHeight);
