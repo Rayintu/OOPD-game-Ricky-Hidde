@@ -35,6 +35,7 @@ public class ICAman extends GameEngine {
         int worldHeight=813;
 
         createView(worldWidth, worldHeight);
+        createMaze();
         createObjects();
 
 
@@ -58,6 +59,10 @@ public class ICAman extends GameEngine {
 
     public void initializeSound(){
 
+    }
+
+    public void createMaze(){
+     
     }
 
     public void createObjects(){
