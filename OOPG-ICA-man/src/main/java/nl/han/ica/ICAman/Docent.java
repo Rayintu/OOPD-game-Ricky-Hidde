@@ -24,7 +24,7 @@ public class Docent extends AnimatedSpriteObject implements ICollidableWithTiles
      * @param world Referentie naar de wereld
      */
     public Docent(ICAman world) {
-        super(new Sprite("nl/han/ica/ICAman/media/herman_small.png"), 1);
+        super(new Sprite("nl/han/ica/ICAman/media/herman_chase_small.png"), 1);
         this.world = world;
         setCurrentFrameIndex(0);
     }
@@ -52,7 +52,7 @@ public class Docent extends AnimatedSpriteObject implements ICollidableWithTiles
 
     @Override
     public void keyPressed(int keyCode, char key) {
-        final int speed = 5;
+        final int speed = 2;
         if (keyCode == world.LEFT) {
             setDirectionSpeed(270, speed);
             setCurrentFrameIndex(0);
