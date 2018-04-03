@@ -1,18 +1,11 @@
 package nl.han.ica.ICAman;
 
-import nl.han.ica.OOPDProcessingEngineHAN.Collision.CollidedTile;
 import nl.han.ica.OOPDProcessingEngineHAN.Collision.ICollidableWithGameObjects;
-import nl.han.ica.OOPDProcessingEngineHAN.Collision.ICollidableWithTiles;
-import nl.han.ica.OOPDProcessingEngineHAN.Exceptions.TileNotFoundException;
-import nl.han.ica.OOPDProcessingEngineHAN.Objects.AnimatedSpriteObject;
 import nl.han.ica.OOPDProcessingEngineHAN.Objects.GameObject;
-import nl.han.ica.OOPDProcessingEngineHAN.Objects.Sprite;
-import nl.han.ica.waterworld.WaterWorld;
-import nl.han.ica.waterworld.tiles.BoardsTile;
-import processing.core.PVector;
 
 import java.util.List;
 
+<<<<<<< HEAD
 public class Docent extends AnimatedSpriteObject implements ICollidableWithTiles {
 
     final int size = 25;
@@ -98,5 +91,11 @@ public class Docent extends AnimatedSpriteObject implements ICollidableWithTiles
                 }
             }
         }
+=======
+public class Docent implements ICollidableWithGameObjects {
+    @Override
+    public void gameObjectCollisionOccurred(List<GameObject> collidedGameObjects) {
+
+>>>>>>> parent of 0bf02f0... code dinges :b:oi
     }
 }
