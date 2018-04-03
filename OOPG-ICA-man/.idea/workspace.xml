@@ -17,6 +17,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/ICAman/ICAman.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="346">
               <caret line="92" column="43" selection-start-line="92" selection-start-column="43" selection-end-line="92" selection-end-column="43" />
 =======
@@ -35,6 +36,10 @@
             <state relative-caret-position="289">
               <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
 >>>>>>> bc24259b22485beb3833cdb804d2baa609afbcbf
+=======
+            <state relative-caret-position="289">
+              <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
+>>>>>>> parent of 18716db... yeet
               <folding>
                 <element signature="e#1752#1753#0" expanded="true" />
                 <element signature="e#1791#1792#0" expanded="true" />
@@ -69,6 +74,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/ICAman/Docent.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="482">
               <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
 =======
@@ -83,6 +89,13 @@
                 <element signature="imports" expanded="true" />
               </folding>
 >>>>>>> bc24259b22485beb3833cdb804d2baa609afbcbf
+=======
+            <state relative-caret-position="1292">
+              <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+>>>>>>> parent of 18716db... yeet
             </state>
           </provider>
         </entry>
@@ -108,6 +121,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/waterworld/WaterWorld.java">
           <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
+<<<<<<< HEAD
             <state relative-caret-position="281">
 =======
 <<<<<<< HEAD
@@ -116,6 +130,9 @@
 =======
             <state relative-caret-position="179">
 >>>>>>> bc24259b22485beb3833cdb804d2baa609afbcbf
+=======
+            <state relative-caret-position="179">
+>>>>>>> parent of 18716db... yeet
               <caret line="143" column="4" selection-start-line="143" selection-start-column="4" selection-end-line="167" selection-end-column="5" />
 >>>>>>> 08bbaac229585b841d795848538c0e94ee9e96f8
               <folding>
@@ -414,15 +431,20 @@
 =======
       <workItem from="1522696578345" duration="3659000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1522742619265" duration="3330000" />
 =======
       <workItem from="1522742619265" duration="986000" />
 >>>>>>> 08bbaac229585b841d795848538c0e94ee9e96f8
 >>>>>>> bc24259b22485beb3833cdb804d2baa609afbcbf
+=======
+      <workItem from="1522742619265" duration="986000" />
+>>>>>>> parent of 18716db... yeet
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
 <<<<<<< HEAD
     <option name="totallyTimeSpent" value="16055000" />
 =======
@@ -432,6 +454,9 @@
     <option name="totallyTimeSpent" value="13711000" />
 >>>>>>> 08bbaac229585b841d795848538c0e94ee9e96f8
 >>>>>>> bc24259b22485beb3833cdb804d2baa609afbcbf
+=======
+    <option name="totallyTimeSpent" value="13711000" />
+>>>>>>> parent of 18716db... yeet
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -555,6 +580,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -816,6 +844,7 @@
       </provider>
     </entry>
 <<<<<<< HEAD
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/ICAman/Speelveld.java">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -857,6 +886,25 @@
         <state relative-caret-position="179">
           <caret line="143" column="4" selection-start-line="143" selection-start-column="4" selection-end-line="167" selection-end-column="5" />
 >>>>>>> 08bbaac229585b841d795848538c0e94ee9e96f8
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/ICAman/Docent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/ICAman/Speelveld.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/waterworld/WaterWorld.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="179">
+          <caret line="143" column="4" selection-start-line="143" selection-start-column="4" selection-end-line="167" selection-end-column="5" />
+>>>>>>> parent of 18716db... yeet
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1154#1155#0" expanded="true" />
@@ -865,7 +913,10 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
 >>>>>>> bc24259b22485beb3833cdb804d2baa609afbcbf
+=======
+>>>>>>> parent of 18716db... yeet
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/ICAman/IWriteReadTextFile.java">
       <provider selected="true" editor-type-id="text-editor">
 <<<<<<< HEAD
@@ -902,29 +953,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/waterworld/WaterWorld.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="143" column="4" selection-start-line="143" selection-start-column="4" selection-end-line="167" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1154#1155#0" expanded="true" />
-            <element signature="e#1232#1233#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/ICAman/Docent.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="79" column="1" selection-start-line="79" selection-start-column="1" selection-end-line="79" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/ICAman/ICAman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="92" column="43" selection-start-line="92" selection-start-column="43" selection-end-line="92" selection-end-column="43" />
+        <state relative-caret-position="289">
+          <caret line="34" column="24" selection-start-line="34" selection-start-column="24" selection-end-line="34" selection-end-column="24" />
           <folding>
             <element signature="e#1752#1753#0" expanded="true" />
             <element signature="e#1791#1792#0" expanded="true" />
