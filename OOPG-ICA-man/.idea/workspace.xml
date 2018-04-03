@@ -16,7 +16,7 @@
       <file leaf-file-name="ICAman.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/ICAman/ICAman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="958">
+            <state relative-caret-position="1009">
               <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -357,7 +357,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17637000" />
+    <option name="totallyTimeSpent" value="18236000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -851,7 +851,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/nl/han/ica/ICAman/ICAman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="958">
+        <state relative-caret-position="1009">
           <caret line="92" column="18" selection-start-line="92" selection-start-column="18" selection-end-line="92" selection-end-column="18" />
           <folding>
             <element signature="imports" expanded="true" />
