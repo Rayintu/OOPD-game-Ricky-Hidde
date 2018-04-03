@@ -62,7 +62,7 @@ public class Docent extends AnimatedSpriteObject implements ICollidableWithTiles
         }
         if (keyCode == world.RIGHT) {
             setDirectionSpeed(90, speed);
-            setCurrentFrameIndex(1);
+            setCurrentFrameIndex(0);
         }
         if (keyCode == world.DOWN) {
             setDirectionSpeed(180, speed);
