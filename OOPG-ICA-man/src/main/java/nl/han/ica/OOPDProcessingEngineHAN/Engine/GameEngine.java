@@ -130,7 +130,6 @@ public abstract class GameEngine extends PApplet {
      */
     public void addGameObject(GameObject gameObject, float x, float y) {
     	addGameObject(gameObject);
-    	
         gameObject.setX(x);
         gameObject.setY(y);
     }

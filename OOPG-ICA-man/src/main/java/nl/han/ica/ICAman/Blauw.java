@@ -1,4 +1,7 @@
 package nl.han.ica.ICAman;
 
-public class Blauw extends Student {
+public class Blauw //extends Student
+ {
+
+  //  Blauw(){}
 }

@@ -13,7 +13,7 @@ import processing.core.PVector;
 
 import java.util.List;
 
-public class Docent extends AnimatedSpriteObject implements ICollidableWithTiles {
+public class Docent extends AnimatedSpriteObject implements ICollidableWithTiles, ICollidableWithGameObjects {
 
     final int size = 25;
     private final ICAman world;
@@ -111,4 +111,11 @@ public class Docent extends AnimatedSpriteObject implements ICollidableWithTiles
             }
         }
     }
+
+    public void gameObjectCollisionOccurred(List<GameObject> collidedGameObjects)
+    {
+        for (GameObject go : collidedGameObjects) {
+        }
+    }
+
 }

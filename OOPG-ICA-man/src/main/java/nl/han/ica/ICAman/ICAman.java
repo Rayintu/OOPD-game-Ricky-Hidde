@@ -3,6 +3,7 @@ package nl.han.ica.ICAman;
 import com.sun.prism.image.ViewPort;
 import nl.han.ica.OOPDProcessingEngineHAN.Dashboard.Dashboard;
 import nl.han.ica.OOPDProcessingEngineHAN.Engine.GameEngine;
+import nl.han.ica.OOPDProcessingEngineHAN.Objects.GameObject;
 import nl.han.ica.OOPDProcessingEngineHAN.Objects.Sprite;
 import nl.han.ica.OOPDProcessingEngineHAN.Persistence.FilePersistence;
 import nl.han.ica.OOPDProcessingEngineHAN.Persistence.IPersistence;
@@ -24,6 +25,11 @@ public class ICAman extends GameEngine {
      */
 
     private Docent docent;
+    private Student studentRood;
+    private Student studentBlauw;
+    private Student studentOranje;
+    private Student studentRoze;
+
 
     public static void main(String[] args) {
         PApplet.main("nl.han.ica.ICAman.ICAman");
@@ -97,15 +103,23 @@ public class ICAman extends GameEngine {
     }
 
 
-
-
-
     public void createObjects(){
         int docentStartX = 640;
         int docentStartY = 400;
+        int studentenStartX = 10;
+        int studentenStartY = 10;
 
         docent = new Docent(this);
         addGameObject(docent, docentStartX, docentStartY);
+
+    //    studentRood =   new Rood(this, 'd', 1, studentenStartX, studentenStartY);
+        addGameObject(studentRood, studentenStartX, studentenStartY);
+    //    studentBlauw =  new Blauw();
+        addGameObject(studentBlauw, studentenStartX, studentenStartY);
+    //    studentOranje = new Oranje();
+        addGameObject(studentOranje, studentenStartX, studentenStartY);
+   //     studentRoze =   new Roze();
+        addGameObject(studentRoze, studentenStartX, studentenStartY);
     }
 
     public void testprint(String yeet){
