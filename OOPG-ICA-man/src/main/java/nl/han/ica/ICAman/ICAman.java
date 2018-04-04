@@ -113,13 +113,13 @@ public class ICAman extends GameEngine {
         addGameObject(docent, docentStartX, docentStartY);
 
     //    studentRood =   new Rood(this, 'd', 1, studentenStartX, studentenStartY);
-        addGameObject(studentRood, studentenStartX, studentenStartY);
+    //    addGameObject(studentRood, studentenStartX, studentenStartY);
     //    studentBlauw =  new Blauw();
-        addGameObject(studentBlauw, studentenStartX, studentenStartY);
+    //    addGameObject(studentBlauw, studentenStartX, studentenStartY);
     //    studentOranje = new Oranje();
-        addGameObject(studentOranje, studentenStartX, studentenStartY);
+    //    addGameObject(studentOranje, studentenStartX, studentenStartY);
    //     studentRoze =   new Roze();
-        addGameObject(studentRoze, studentenStartX, studentenStartY);
+   //     addGameObject(studentRoze, studentenStartX, studentenStartY);
     }
 
     public void testprint(String yeet){
